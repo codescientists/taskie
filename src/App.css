@@ -1,0 +1,47 @@
+.Modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+@media screen and (max-width: 480px) {
+    .Modal{
+        width: 300px;
+    }
+}
+  
+
+h2{
+    margin-bottom: 20px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.closeBtn{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 30px;
+    width: 30px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
